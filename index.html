@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; } 
+    .attribution a { color: hsl(228, 45%, 44%); } 
+    a {text-decoration: none;color: hsl(229, 8%, 60%);}
+  </style>
+</head>
+<body> 
+
+  <nav class="navbar">
+    <div class="menu">
+      <b class="close"></b>
+      <img src="images/logo-bookmark.svg" alt="" class="logo">
+      <ul class="listaMenu">
+        <li class="itemsLista"><a  href="#features">Features</li></a>
+        <li class="itemsLista"><a href="">Pricing</li></a>
+        <li class="itemsLista"><a href="#contact">Contact</li></a>
+        <li class="itemsLista login">Login</li>
+      </ul>
+    </div>
+    <div class="menuResponsivo"></div>
+  </nav>
+  <div class="containerBook">
+    <div class="containerBookGrid">
+      <div class="simpleBook">
+        <h1 class="titleSimpleBook">A Simple Bookmark Manager</h1>
+        <p class="descritionSimpleBook">A clean and simple interface to organize your favourite websites. Open a new 
+  browser tab and see your sites load instantly. Try it for free.</p>
+        <button class="getChrome"><a href="#containerDownload" class="getChromeLink">Get it on Chrome</a></button>
+        <button class="getFireFox"><a href="#containerDownload" class="getFireFoxLink">Get it on Firefox</a></button>
+      </div>
+      <div class="simpleBookImage">
+        <div class="backgroundBookImage"></div>
+        <img class="imageSimpleBook" src="images/illustration-hero.svg" alt="">
+      </div>
+    </div>
+    <div id="features" class="features">
+      <h1 class="titleFeatures">Features</h1>
+      <p class="descritionFeatures">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      <div class="InformationFeatures">
+        <ul class="listInformation">
+          <li class="itemInformation">Simple Bookmarking</li>
+          <li class="itemInformation">Speedy Searching</li>
+          <li class="itemInformation">Easy Sharing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bookInClickGrid">
+      <div class="bookInClickImage">
+        <div class="backgroundBookInClickImage"></div>
+        <img class="imageSimpleBookInClick" src="images/illustration-features-tab-1.svg" alt="">
+      </div>
+      <div class="bookInClickContainer">
+        <h1 class="titleBookInClick">Bookmark in one click</h1>
+        <p class="descritionBookInClick">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+        <button class="moreInfoButtonBookInClick"><a href="" class="moreInfoLinkBookInClick">More Info</a></button>
+      </div>
+    </div>
+    <div id="containerDownload" class="downloadContainer">
+      <h1 class="titleDownload">Download the extension</h1>
+      <p class="descritionDownload">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      <div class="downloadContainerGrid">
+        <div class="containerChrome">
+          <img src="images/logo-chrome.svg" alt="" class="logoDownload">
+          <h1 class="titleDownloadCard">Add to Chrome</h1>
+          <h2 class="versionDownload">Minimum version 62</h2>
+          <img src="images/bg-dots.svg" alt="" class="bgDots">
+          <button class="installExtension"><a href="" class="installExtensionLink">Add & Install Extension</a></button>
+        </div>
+        <div class="containerFireFox">
+          <img src="images/logo-firefox.svg" alt="" class="logoDownload">
+          <h1 class="titleDownloadCard">Add to Firefox</h1>
+          <h2 class="versionDownload">Minimum version 55</h2>
+          <img src="images/bg-dots.svg" alt="" class="bgDots">
+          <button class="installExtension"><a href="" class="installExtensionLink">Add & Install Extension</a></button>
+        </div>
+        <div class="containerOpera">
+          <img src="images/logo-opera.svg" alt="" class="logoDownload">
+          <h1 class="titleDownloadCard">Add to Opera</h1>
+          <h2 class="versionDownload">Minimum version 46</h2>
+          <img src="images/bg-dots.svg" alt="" class="bgDots">
+          <button class="installExtension"><a href="" class="installExtensionLink">Add & Install Extension</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="questions">
+      <h1 class="titleQuestions">Frequently Asked Questions</h1>
+      <h2 class="commentQuestions">Here are some of our FAQs. If you have any other questions you’d like 
+      answered please feel free to email us.</h2>
+      <div class="questionContainer">
+        <h1 class="titleQuestion">What is Bookmark?</h1>
+        <button class="mostraResposta"><img src="images/icon-arrow.svg" alt=""></button>
+        <div class="answer">
+          <p class="answerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+          justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <h1 class="titleQuestion">How can I request a new browser?</h1>
+        <button class="mostraResposta"><img src="images/icon-arrow.svg" alt=""></button>
+        <div class="answer">
+          <p class="answerText">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+          Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <h1 class="titleQuestion">Is there a mobile app?</h1>
+        <button class="mostraResposta"><img src="images/icon-arrow.svg" alt=""></button>
+        <div class="answer">
+          <p class="answerText"> Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+          sollicitudin ex et ultricies bibendum.</p>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <h1 class="titleQuestion">What about other Chromium browsers?</h1>
+        <button class="mostraResposta"><img class="img" src="images/icon-arrow.svg" alt=""></button>
+        <div class="answer">
+          <p class="answerText">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+          vitae neque eget nisl gravida pellentesque non ut velit.</p>
+        </div>
+      </div>
+      <button class="moreInfoButton"><a href="" class="moreInfoLink">More Info</a></button>
+    </div>
+    <div id="contact" class="containerEmail">
+      <div class="containerEmailInformations">
+        <p class="numberJoined">35,000+ already joined</p>
+        <h1 class="titleContainerEmail">Stay up-to-date with what we’re doing</h1>
+        <input class="inputEmail " type="text" placeholder="Enter your email address">
+        <button id="contato" class="contactUsEmail"><a href="#contato" class="contactUsEmailLink">Contact Us</a></button>
+        <div class="messageError">Whoops, make sure it's an email</div>
+      </div>
+    </div>
+    <footer class="footer">
+      <img src="images/logo-bookmark.svg" alt="" class="logoFooter">
+      <ul class="listFooter">
+        <li class="itensFooter">Features</li>
+        <li class="itensFooter">Pricing</li>
+        <li class="itensFooter">Contact</li>
+      </ul>
+      <ul class="listFooterIcons">
+        <li class="itensFooterIconsFacebook"></li>
+        <li class="itensFooterIconsTwitter"></li>
+      </ul>
+    </footer>
+  </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Kleuber Silva</a>.
+    </p>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
